@@ -24,9 +24,6 @@ editor:
       - { name: "Row Warning", element: "tr", attributes: { 'class': 'warning' } }
       - { name: "Row Danger", element: "tr", attributes: { 'class': 'danger' } }
 
-
-
-
       - { name: "Button Default", element: "a", attributes: { 'class': 'btn btn-default' } }
       - { name: "Button Primary", element: "a", attributes: { 'class': 'btn btn-primary' } }
       - { name: "Button Success", element: "a", attributes: { 'class': 'btn btn-success' } }
@@ -40,8 +37,6 @@ editor:
       - { name: "Label Info", element: "span", attributes: { 'class': 'label label-info' } }
       - { name: "Label Warning", element: "span", attributes: { 'class': 'label label-warning' } }
       - { name: "Label danger", element: "span", attributes: { 'class': 'label label-danger' } }
-
-
 
       - { name: "Markierter Text", element: "mark" }
       - { name: "Gelöschter Text", element: "del" }
