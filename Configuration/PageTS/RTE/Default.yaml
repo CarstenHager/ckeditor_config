@@ -5,7 +5,7 @@ imports:
 
 editor:
   config:
-    contentsCss: "EXT:lab81_template/Resources/Public/Css/rte.min.css"
+    contentsCss: "EXT:ckeditor_config/Resources/Public/Css/rte.css"
 
     stylesSet:
       - { name: "Einführungstext", element: "p", attributes: { 'class': 'lead' } }
