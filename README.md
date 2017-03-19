@@ -1,5 +1,8 @@
-# ckeditor_config
-Konfiguration des CKEditors für TYPO3 8 mit den Bootstrap Klassen
+# CKEditor Configuration
+
+[![TYPO3](https://img.shields.io/badge/TYPO3-8.7.0-orange.svg?style=flat-square)](https://typo3.org/)
+
+Konfiguration des CKEditors für TYPO3 8 mit den Bootstrap 3 Klassen
 
 
 **Blogs über die Konfiguration des Editors**
@@ -17,7 +20,8 @@ https://typo3worx.eu/2017/02/configure-ckeditor-in-typo3/
 4. TS (ckeditor_config) im Template hinzufügen
 
 
-Problem:
+**Problem:**
+
 Die Einbindung eines Plugins klappt aktuell noch nicht. Keine Ahnung warum.
 
 Demo:
