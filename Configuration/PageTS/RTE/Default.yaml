@@ -17,13 +17,10 @@ editor:
       - { name: "Großgeschriebener Text", element: "p", attributes: { 'class': 'text-uppercase' } }
       - { name: "Am Wortanfang großgeschriebener Text", element: "p", attributes: { 'class': 'text-capitalize' } }
 
-
-
-
-      - { name: "Table", element: "table", attributes: { 'class': 'table table-hover' } }
-      - { name: "Table Striped", element: "table", attributes: { 'class': 'table table-hover table-striped' } }
-      - { name: "Table Bordered", element: "table", attributes: { 'class': 'table table-hover table-bordered' } }
-      - { name: "Table Condensed", element: "table", attributes: { 'class': 'table table-hover table-condensed' } }
+      - { name: "Tabelle", element: "table", attributes: { 'class': 'table table-hover' } }
+      - { name: "Tabelle - Gestreifte Zeilen", element: "table", attributes: { 'class': 'table table-hover table-striped' } }
+      - { name: "Tabelle mit Rahmen", element: "table", attributes: { 'class': 'table table-hover table-bordered' } }
+      - { name: "Tabelle Komprimierte", element: "table", attributes: { 'class': 'table table-hover table-condensed' } }
 
       - { name: "Row Active", element: "tr", attributes: { 'class': 'active' } }
       - { name: "Row Success", element: "tr", attributes: { 'class': 'success' } }
