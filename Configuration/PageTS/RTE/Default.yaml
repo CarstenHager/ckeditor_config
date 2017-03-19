@@ -13,6 +13,13 @@ editor:
       - { name: "Text ohne Umbruch", element: "p", attributes: { 'class': 'text-nowrap' } }
       - { name: "Text links ausgerichtet", element: "p", attributes: { 'class': 'text--left' } }
 
+      - { name: "Kleingeschriebener Text", element: "p", attributes: { 'class': 'text-lowercase' } }
+      - { name: "Großgeschriebener Text", element: "p", attributes: { 'class': 'text-uppercase' } }
+      - { name: "Am Wortanfang großgeschriebener Text", element: "p", attributes: { 'class': 'text-capitalize' } }
+
+
+
+
       - { name: "Table", element: "table", attributes: { 'class': 'table table-hover' } }
       - { name: "Table Striped", element: "table", attributes: { 'class': 'table table-hover table-striped' } }
       - { name: "Table Bordered", element: "table", attributes: { 'class': 'table table-hover table-bordered' } }
@@ -44,6 +51,9 @@ editor:
       - { name: "Eingefügter Text", element: "ins" }
       - { name: "Adresse", element: "address" }
       - { name: "Zitat rechts ausgerichtet", element: "blockquote" ,attributes: { 'class': 'blockquote-reverse' }}
+
+
+
      # List styles
       - { name: 'UL Ohne Gestaltung', element: 'ul', attributes: { 'class': 'list-unstyled' } }
       - { name: 'UL Inline', element: 'ul', attributes: { 'class': 'list-inline' } }
