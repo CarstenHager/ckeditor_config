@@ -13,6 +13,7 @@ $EM_CONF[$_EXTKEY] = array(
             'rte_ckeditor' => '8.6.0-8.99.99'
         ),
         'conflicts' => array(
+            'css_styled_content' => '*'
         ),
     ),
     'state' => 'beta',
