@@ -1,0 +1,9 @@
+{
+    "name": "lab81-medienagentur/ckeditor-config",
+    "type": "typo3-cms-extension",
+    "description": "Base extension for project ckeditor_config",
+    "homepage": "http://lab81.de",
+    "license": ["GPL-2.0+"],
+    "keywords": ["TYPO3 CMS"],
+    "version": "1.0.0"
+}

@@ -1,0 +1,6 @@
+###
+### PageTS for ckeditor config
+###
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ckeditor_config/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ckeditor_config/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ckeditor_config/Configuration/PageTS/TCEMAIN.txt">
