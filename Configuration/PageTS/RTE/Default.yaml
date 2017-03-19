@@ -40,15 +40,14 @@ editor:
 
       - { name: "Markierter Text", element: "mark" }
       - { name: "Gelöschter Text", element: "del" }
-      - { name: "Durchgestrichener Text", element: "s" }
       - { name: "Eingefügter Text", element: "ins" }
-      - { name: "Unterstrichener Text", element: "u" }
       - { name: "Adresse", element: "address" }
       - { name: "Zitat rechts ausgerichtet", element: "blockquote" ,attributes: { 'class': 'blockquote-reverse' }}
      # List styles
       - { name: 'UL Ohne Gestaltung', element: 'ul', attributes: { 'class': 'list-unstyled' } }
       - { name: 'UL Inline', element: 'ul', attributes: { 'class': 'list-inline' } }
       - { name: 'No UL Bullets', element: 'ul', attributes: { 'class': 'no-bullet' } }
+
 
     toolbarGroups:
       - { name: styles, groups: [ format, styles ] }
@@ -62,8 +61,6 @@ editor:
       - { name: tools, groups: [ table, specialchar ] }
       - { name: document, groups: [ mode ] }
 
-    format_tags: "p;h1;h2;h3;h4;h5;pre"
-
     justifyClasses:
       - text-left
       - text-center
@@ -72,11 +69,16 @@ editor:
 
     extraPlugins:
       - justify
+      - find
+      - bidi
+
+    removePlugins:
+      - image
 
     removeButtons:
-        - Underline
-        - Strike
 
+# Allow s and u tag
 processing:
   allowTags:
-    - iframe
+    - s
+    - u

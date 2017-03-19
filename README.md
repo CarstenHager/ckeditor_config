@@ -11,3 +11,4 @@ Installation:
 1. Extension herunterladen
 2. Extension über EXT Manager Installieren
 3. Auf der Rootseite über Ressorcen das PageTSconfig einbinden (ckedtor_config)
+4. TS (ckedtor_config) im Template hinzufügen
