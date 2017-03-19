@@ -5,6 +5,7 @@ Konfiguration des CKEditors für TYPO3 8 mit den Bootstrap Klassen
 **Blogs über die Konfiguration des Editors**
 
 https://www.thomaskieslich.de/blog/post/127-typo3-8x-ckeditor-konfigurieren/
+
 https://typo3worx.eu/2017/02/configure-ckeditor-in-typo3/
 
 

@@ -1,2 +1,13 @@
 # Normal bekommt eine Tabelle die Klasse "contenttable" zugewiesen, dies wird hier deaktiviert
 lib.parseFunc_RTE.externalBlocks.table.stdWrap.HTMLparser = 0
+
+# Tabellen bekommen ein Div herum
+lib.parseFunc_RTE {
+	externalBlocks {
+		table {
+			stdWrap {
+				wrap = <div class="table-responsive">|</div>
+			}
+		}
+	}
+}
