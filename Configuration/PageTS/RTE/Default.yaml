@@ -1,0 +1,87 @@
+imports:
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Processing.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
+
+editor:
+  config:
+    contentsCss: "EXT:lab81_template/Resources/Public/Css/rte.min.css"
+
+    stylesSet:
+      - { name: "Einführungstext", element: "p", attributes: { 'class': 'lead' } }
+      - { name: "Kleiner Text", element: "p", attributes: { 'class': 'small' } }
+      - { name: "Text ohne Umbruch", element: "p", attributes: { 'class': 'text-nowrap' } }
+      - { name: "Text links ausgerichtet", element: "p", attributes: { 'class': 'text--left' } }
+
+      - { name: "Table", element: "table", attributes: { 'class': 'table table-hover' } }
+      - { name: "Table Striped", element: "table", attributes: { 'class': 'table table-hover table-striped' } }
+      - { name: "Table Bordered", element: "table", attributes: { 'class': 'table table-hover table-bordered' } }
+      - { name: "Table Condensed", element: "table", attributes: { 'class': 'table table-hover table-condensed' } }
+
+      - { name: "Row Active", element: "tr", attributes: { 'class': 'active' } }
+      - { name: "Row Success", element: "tr", attributes: { 'class': 'success' } }
+      - { name: "Row Info", element: "tr", attributes: { 'class': 'info' } }
+      - { name: "Row Warning", element: "tr", attributes: { 'class': 'warning' } }
+      - { name: "Row Danger", element: "tr", attributes: { 'class': 'danger' } }
+
+
+
+
+      - { name: "Button Default", element: "a", attributes: { 'class': 'btn btn-default' } }
+      - { name: "Button Primary", element: "a", attributes: { 'class': 'btn btn-primary' } }
+      - { name: "Button Success", element: "a", attributes: { 'class': 'btn btn-success' } }
+      - { name: "Button Info", element: "a", attributes: { 'class': 'btn btn-info' } }
+      - { name: "Button Warning", element: "a", attributes: { 'class': 'btn btn-warning' } }
+      - { name: "Button Danger", element: "a", attributes: { 'class': 'btn btn-danger' } }
+
+      - { name: "Label Default", element: "span", attributes: { 'class': 'label label-default' } }
+      - { name: "Label Primär", element: "span", attributes: { 'class': 'label label-primary' } }
+      - { name: "Label Erfolg", element: "span", attributes: { 'class': 'label label-success' } }
+      - { name: "Label Info", element: "span", attributes: { 'class': 'label label-info' } }
+      - { name: "Label Warning", element: "span", attributes: { 'class': 'label label-warning' } }
+      - { name: "Label danger", element: "span", attributes: { 'class': 'label label-danger' } }
+
+
+
+      - { name: "Markierter Text", element: "mark" }
+      - { name: "Gelöschter Text", element: "del" }
+      - { name: "Durchgestrichener Text", element: "s" }
+      - { name: "Eingefügter Text", element: "ins" }
+      - { name: "Unterstrichener Text", element: "u" }
+      - { name: "Adresse", element: "address" }
+      - { name: "Zitat rechts ausgerichtet", element: "blockquote" ,attributes: { 'class': 'blockquote-reverse' }}
+     # List styles
+      - { name: 'UL Ohne Gestaltung', element: 'ul', attributes: { 'class': 'list-unstyled' } }
+      - { name: 'UL Inline', element: 'ul', attributes: { 'class': 'list-inline' } }
+      - { name: 'No UL Bullets', element: 'ul', attributes: { 'class': 'no-bullet' } }
+
+    toolbarGroups:
+      - { name: styles, groups: [ format, styles ] }
+      - { name: basicstyles, groups: [ basicstyles ] }
+      - { name: paragraph, groups: [ list, indent, blocks, align ] }
+      - "/"
+      - { name: links, groups: [ links ] }
+      - { name: clipboard, groups: [ clipboard, cleanup, undo ] }
+      - { name: editing, groups: [ spellchecker ] }
+      - { name: insert, groups: [ insert ] }
+      - { name: tools, groups: [ table, specialchar ] }
+      - { name: document, groups: [ mode ] }
+
+    format_tags: "p;h1;h2;h3;h4;h5;pre"
+
+    justifyClasses:
+      - text-left
+      - text-center
+      - text-right
+      - text-justify
+
+    extraPlugins:
+      - justify
+
+    removeButtons:
+        - Underline
+        - Strike
+
+processing:
+  allowTags:
+    - iframe
