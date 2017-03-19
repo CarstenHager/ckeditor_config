@@ -1,1 +1,2 @@
+# Normal bekommt eine Tabelle die Klasse "contenttable" zugewiesen, dies wird hier deaktiviert
 lib.parseFunc_RTE.externalBlocks.table.stdWrap.HTMLparser = 0
