@@ -20,10 +20,6 @@ https://typo3worx.eu/2017/02/configure-ckeditor-in-typo3/
 4. TS (ckeditor_config) im Template hinzufügen
 
 
-**Problem:**
-
-Die Einbindung eines Plugins klappt aktuell noch nicht. Keine Ahnung warum.
-
 Demo:
 http://p208589.mittwaldserver.info/demo/rte/
 
