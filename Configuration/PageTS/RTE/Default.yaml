@@ -4,9 +4,12 @@ imports:
   - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
 
 editor:
+
+  externalPlugins:
+    youtube: { resource: "EXT:ckeditor_config/Resources/Public/Plugins/youtube/plugin.js" }
+
   config:
     contentsCss: "EXT:ckeditor_config/Resources/Public/Css/rte.css"
-
     stylesSet:
       - { name: "Einführungstext", element: "p", attributes: { 'class': 'lead' } }
       - { name: "Kleiner Text", element: "p", attributes: { 'class': 'small' } }
@@ -56,7 +59,7 @@ editor:
 
 
     toolbarGroups:
-      - { name: styles, groups: [ format, styles ] }
+      - { name: styles, groups: [ format, styles, btgrid ] }
       - { name: basicstyles, groups: [ basicstyles ] }
       - { name: paragraph, groups: [ list, indent, blocks, align ] }
       - "/"
@@ -77,6 +80,10 @@ editor:
       - justify
       - find
       - bidi
+      - youtube
+
+    #Einstellungen für das Youtube Plugin
+    youtube_width: '550'
 
     removePlugins:
       - image
@@ -88,3 +95,4 @@ processing:
   allowTags:
     - s
     - u
+    - iframe

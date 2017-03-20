@@ -3,6 +3,8 @@ lib.parseFunc_RTE.externalBlocks.table.stdWrap.HTMLparser = 0
 
 # Tabellen bekommen ein Div herum
 lib.parseFunc_RTE {
+	# iframe erlauben für das Youtube Plugin
+	allowTags := addToList(iframe)
 	externalBlocks {
 		table {
 			stdWrap {
