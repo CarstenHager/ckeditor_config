@@ -11,7 +11,7 @@ editor:
       - { name: "Einführungstext", element: "p", attributes: { 'class': 'lead' } }
       - { name: "Kleiner Text", element: "p", attributes: { 'class': 'small' } }
       - { name: "Text ohne Umbruch", element: "p", attributes: { 'class': 'text-nowrap' } }
-      - { name: "Text links ausgerichtet", element: "p", attributes: { 'class': 'text--left' } }
+      - { name: "Text links ausgerichtet", element: "p", attributes: { 'class': 'text-left' } }
 
       - { name: "Kleingeschriebener Text", element: "p", attributes: { 'class': 'text-lowercase' } }
       - { name: "Großgeschriebener Text", element: "p", attributes: { 'class': 'text-uppercase' } }
@@ -48,8 +48,6 @@ editor:
       - { name: "Eingefügter Text", element: "ins" }
       - { name: "Adresse", element: "address" }
       - { name: "Zitat rechts ausgerichtet", element: "blockquote" ,attributes: { 'class': 'blockquote-reverse' }}
-
-
 
      # List styles
       - { name: 'UL Ohne Gestaltung', element: 'ul', attributes: { 'class': 'list-unstyled' } }
