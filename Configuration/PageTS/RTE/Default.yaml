@@ -11,26 +11,36 @@ editor:
   config:
     contentsCss: "EXT:ckeditor_config/Resources/Public/Css/rte.css"
     stylesSet:
+
+      # Blockstile
       - { name: "Einführungstext", element: "p", attributes: { 'class': 'lead' } }
       - { name: "Kleiner Text", element: "p", attributes: { 'class': 'small' } }
       - { name: "Text ohne Umbruch", element: "p", attributes: { 'class': 'text-nowrap' } }
-      - { name: "Text links ausgerichtet", element: "p", attributes: { 'class': 'text-left' } }
 
       - { name: "Kleingeschriebener Text", element: "p", attributes: { 'class': 'text-lowercase' } }
       - { name: "Großgeschriebener Text", element: "p", attributes: { 'class': 'text-uppercase' } }
       - { name: "Am Wortanfang großgeschriebener Text", element: "p", attributes: { 'class': 'text-capitalize' } }
 
+      - { name: "Info", element: "p", attributes: { 'class': 'text-info' } }
+      - { name: "Ausgegraut", element: "p", attributes: { 'class': 'text-muted' } }
+      - { name: "Gefahr", element: "p", attributes: { 'class': 'text-danger' } }
+      - { name: "Erfolg", element: "p", attributes: { 'class': 'text-success' } }
+      - { name: "Warnung", element: "p", attributes: { 'class': 'text-warning' } }
+
+      #Tabellen
       - { name: "Tabelle", element: "table", attributes: { 'class': 'table table-hover' } }
       - { name: "Tabelle - Gestreifte Zeilen", element: "table", attributes: { 'class': 'table table-hover table-striped' } }
       - { name: "Tabelle mit Rahmen", element: "table", attributes: { 'class': 'table table-hover table-bordered' } }
       - { name: "Tabelle Komprimierte", element: "table", attributes: { 'class': 'table table-hover table-condensed' } }
 
+      # Tabellen-Zeilen
       - { name: "Row Active", element: "tr", attributes: { 'class': 'active' } }
       - { name: "Row Success", element: "tr", attributes: { 'class': 'success' } }
       - { name: "Row Info", element: "tr", attributes: { 'class': 'info' } }
       - { name: "Row Warning", element: "tr", attributes: { 'class': 'warning' } }
       - { name: "Row Danger", element: "tr", attributes: { 'class': 'danger' } }
 
+      # Buttons
       - { name: "Button Default", element: "a", attributes: { 'class': 'btn btn-default' } }
       - { name: "Button Primary", element: "a", attributes: { 'class': 'btn btn-primary' } }
       - { name: "Button Success", element: "a", attributes: { 'class': 'btn btn-success' } }
@@ -38,6 +48,7 @@ editor:
       - { name: "Button Warning", element: "a", attributes: { 'class': 'btn btn-warning' } }
       - { name: "Button Danger", element: "a", attributes: { 'class': 'btn btn-danger' } }
 
+      # Labels
       - { name: "Label Default", element: "span", attributes: { 'class': 'label label-default' } }
       - { name: "Label Primär", element: "span", attributes: { 'class': 'label label-primary' } }
       - { name: "Label Erfolg", element: "span", attributes: { 'class': 'label label-success' } }
@@ -45,6 +56,7 @@ editor:
       - { name: "Label Warning", element: "span", attributes: { 'class': 'label label-warning' } }
       - { name: "Label danger", element: "span", attributes: { 'class': 'label label-danger' } }
 
+      # Textstile
       - { name: "Kleiner Text inline", element: "span", attributes: { 'class': 'small' } }
       - { name: "Markierter Text", element: "mark" }
       - { name: "Gelöschter Text", element: "del" }
@@ -52,10 +64,10 @@ editor:
       - { name: "Adresse", element: "address" }
       - { name: "Zitat rechts ausgerichtet", element: "blockquote" ,attributes: { 'class': 'blockquote-reverse' }}
 
-     # List styles
-      - { name: 'UL Ohne Gestaltung', element: 'ul', attributes: { 'class': 'list-unstyled' } }
-      - { name: 'UL Inline', element: 'ul', attributes: { 'class': 'list-inline' } }
-      - { name: 'No UL Bullets', element: 'ul', attributes: { 'class': 'no-bullet' } }
+     # Listen
+      - { name: 'Ohne Gestaltung', element: 'ul', attributes: { 'class': 'list-unstyled' } }
+      - { name: 'Inline', element: 'ul', attributes: { 'class': 'list-inline' } }
+      - { name: 'Keine UL Bullets', element: 'ul', attributes: { 'class': 'no-bullet' } }
 
 
     toolbarGroups:
