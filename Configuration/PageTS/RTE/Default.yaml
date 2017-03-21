@@ -71,16 +71,20 @@ editor:
 
 
     toolbarGroups:
-      - { name: styles, groups: [ format, styles, btgrid ] }
-      - { name: basicstyles, groups: [ basicstyles ] }
-      - { name: paragraph, groups: [ list, indent, blocks, align ] }
+      - { name: clipboard, groups: [clipboard, undo] }
+      - { name: editing,   groups: [find, selection, spellchecker] }
+      - { name: links }
+      - { name: insert }
+      - { name: tools }
+      - { name: table }
+      - { name: tabletools }
+      - { name: document,  groups: [ mode, document, doctools ] }
+      - { name: others }
       - "/"
-      - { name: links, groups: [ links ] }
-      - { name: clipboard, groups: [ clipboard, cleanup, undo ] }
-      - { name: editing, groups: [ spellchecker ] }
-      - { name: insert, groups: [ insert ] }
-      - { name: tools, groups: [ table, specialchar ] }
-      - { name: document, groups: [ mode ] }
+      - { name: basicstyles, groups: [ basicstyles, align, cleanup ] }
+      - { name: paragraph,   groups: [ list, indent, blocks, align, bidi,showborders ] }
+      - "/"
+      - { name: styles }
 
     justifyClasses:
       - text-left
@@ -93,6 +97,7 @@ editor:
       - find
       - bidi
       - youtube
+      - copyformatting
 
     #Einstellungen für das Youtube Plugin
     youtube_width: '550'
